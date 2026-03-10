@@ -1,0 +1,152 @@
+* {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0px;
+
+}
+
+/* Header area */
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(92, 83, 83);
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 36px;
+    padding: 20px 0px 20px 46px;
+    font-weight: 1000;
+}
+
+.nav {
+    margin-right: 40px;
+}
+
+.nav a {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+/* content area */
+
+.content {
+    padding: 140px 0px 0px 100px;
+    height: 685px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.creative {
+    color: purple;
+}
+
+.content h2 {
+    font-size: 40px;
+}
+
+.content p {
+    color: white;
+    font-size: 26px;
+}
+
+/* Contect Button */
+
+.contact {
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 15px;
+    transform: scale(0.95);
+    transition: .1s linear;
+}
+
+.contact:hover {
+    background-color: rgb(39, 223, 125);
+    transform: scale(1);
+}
+
+/* About-Box */
+
+/* rgb color rgb(230, 210, 225) */
+
+.about-box {
+
+    height: 685px;
+    padding: 140px 0px 0px 100px;
+    background: linear-gradient(rgb(84, 86, 105)20%, rgb(49, 46, 46)70%);
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skills-box,
+.contact-box {
+
+    height: 685px;
+    padding: 140px 0px 0px 100px;
+    background: rgb(49, 46, 46)80%;
+
+}
+
+/* About Page */
+
+.about-content {
+    margin-right: 100px;
+}
+
+.about-content h1 {
+    font-size: 50px;
+}
+
+.urvish {
+    transition: .5s;
+}
+
+.urvish:hover {
+    color: rgb(104, 214, 181);
+
+}
+
+.about-content .about-me {
+    font-size: 20px;
+}
+
+.profile-pic {
+    margin-right: 100px;
+    height: 600px;
+    border-radius: 25px;
+    transform: scale(0.9);
+    transition: 0.3s linear;
+}
+
+.profile-pic:hover {
+    transform: scale(1);
+}
+
+.contact-list {
+    font-size: 26px;
+    padding: 25px;
+}
+
+.data-list {
+    font-size: 20px;
+    padding-left: 40px;
+}

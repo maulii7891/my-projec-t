@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My_Portfolio</title>
+    <style>
+        * /* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body{
+    background:#1f1f1f;
+    color:white;
+}
+
+/* Header */
+.head{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:#2e2e2e;
+    position:fixed;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#00ffd5;
+}
+
+.nav a{
+    margin-left:25px;
+    font-size:20px;
+    transition:0.3s;
+}
+
+.nav a:hover{
+    color:#00ffd5;
+}
+
+/* Home Section */
+.content{
+    padding:150px 100px;
+    height:700px;
+    background-image:url("background.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.content h1{
+    font-size:55px;
+}
+
+.content h2{
+    font-size:40px;
+    margin-top:10px;
+}
+
+.creative{
+    color:#00ffd5;
+}
+
+.content p{
+    font-size:22px;
+    margin-top:20px;
+}
+
+/* Button */
+.contact{
+    margin-top:25px;
+    width:200px;
+    height:50px;
+    border:none;
+    border-radius:10px;
+    background:#00ffd5;
+    color:black;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact:hover{
+    transform:scale(1.1);
+}
+
+/* About Section */
+.about-box{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 100px;
+    background:#2a2a2a;
+}
+
+.about-content{
+    width:60%;
+}
+
+.about-content h1{
+    font-size:45px;
+}
+
+.about-content h2{
+    margin-top:10px;
+}
+
+.about-me{
+    margin-top:15px;
+    font-size:18px;
+}
+
+.profile-pic{
+    width:350px;
+    border-radius:20px;
+    transition:0.4s;
+}
+
+.profile-pic:hover{
+    transform:scale(1.05);
+}
+
+/* Skills Section */
+.skills-box{
+    padding:120px 100px;
+    background:#1f1f1f;
+}
+
+.skills-box h1{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.skills-box dt{
+    font-size:24px;
+    margin-top:20px;
+}
+
+.skills-box dd{
+    font-size:18px;
+    margin-top:10px;
+}
+
+/* Achievement Section */
+.contact-box{
+    padding:120px 100px;
+    background:#2a2a2a;
+}
+
+.contact-box h1{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+/* Contact Info */
+.contact-list{
+    font-size:24px;
+    margin-top:20px;
+}
+
+.data-list{
+    font-size:18px;
+    margin-left:20px;
+}
+
+.data-list a:hover{
+    color:#00ffd5;
+}
+    </style>
+</head>
+
+<body>
+
+    <header class="head">
+        <a href="#home" class="logo">Portfo.</a>
+
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#achievement">Achievement</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h1>mauli dare</h1>
+            <h2><span class="creative">Creative</span> Design</h2>
+            <p>Make designs specially illustrations, logos, UI/UX, apps &<br>websites, social media, magazines &
+                banners.</p>
+            <br>
+            <a href="#contact">
+                <input type="button" value="CONTACT ME" class="contact">
+            </a>
+
+        </div>
+
+        <div id="about" class="about-box">
+            <div class="about-content">
+
+                <h1>Hi, I'm <span class="mauli">mauli</span></h1>
+                <h2>AI & ML | WEB Developer</h2>
+                <ul>
+                    <li class="about-me">
+                        I am an AI & ML Engineer studying at Parul University.
+                    </li>
+                    <li class="about-me">
+                        I am good at motivating people and also work as a personal coach and peace activist.
+                    </li>
+                    <li class="about-me">
+                        I am a good communicator with excellence in marketing and strategy making.
+                    </li>
+                    <li class="about-me">
+                        I am also an AWS Builder and a Google Student Ambassador.
+                    </li>
+                </ul>
+
+            </div>
+
+            <img src="c:\Users\Mauli Dare\OneDrive\Documents\my pic 2.png" class="profile-pic">
+
+        </div>
+
+        <div id="skills" class="skills-box">
+            <div class="about-content">
+
+                <h1>My skills</h1>
+                <dl>
+                    <dt style="font-size: 26px; padding: 25px;">HTML CSS</dt>
+                    <dd style="font-size: 20px;">
+                        My experience extends beyond core programming to include robust skills in Front-End Development,
+                        utilizing HTML and CSS to bring design concepts to life. I excel at structuring clean, semantic
+                        HTML5 to ensure accessibility and maintainability, while using CSS3 for styling to create
+                        visually appealing and responsive user interfaces. My focus is on delivering seamless user
+                        experiences (UX) through pixel-perfect execution and effective use of modern layout techniques
+                        like Flexbox and Grid. This capability allows me to not only build the logic behind AI
+                        applications but also to craft the intuitive and engaging interfaces through which users
+                        interact with them.
+                    </dd>
+
+                    <dt style="font-size: 26px; margin-top: 40px; padding: 25px;">Python</dt>
+                    <dd style="font-size: 20px;">
+                        Python serves as the backbone of my technical toolkit, with expertise in leveraging its
+                        versatility for both application development and complex data-driven tasks, particularly in the
+                        realm of AI and Machine Learning. I am proficient in utilizing core libraries like NumPy for
+                        numerical computation, Pandas for data manipulation and analysis, and the SciPy ecosystem.
+                        Crucially, I have hands-on experience with leading ML frameworks, including Scikit-learn for
+                        classical algorithms and TensorFlow/PyTorch for building deep learning models (CNNs, RNNs,
+                        etc.). My ability to write clean, efficient, and well-documented Python code allows me to
+                        seamlessly handle data preprocessing, model training, evaluation, and the final deployment of
+                        intelligent systems.
+                    </dd>
+                </dl>
+
+
+            </div>
+
+        </div>
+
+        <div id="achievement" class="contact-box">
+
+            <h1>My Achievement</h1>
+
+            <ul style="font-size: 20px;">
+                <li style="padding: 5px;">National Karate champion </li>
+                <li style="padding: 5px;">District level Kabaddi player</li>
+                <li style="padding: 5px;">And many more</li>
+            </ul>
+            <img src="WhatsApp Image 2025-12-15 at 7.15.32 AM.jpeg" width="400px" height="400px"
+                style="margin-top: 35px; border-radius: 35px;">
+
+
+        </div>
+
+        <div id="contact" class="contact-box">
+
+            <h1>My Contact Info.</h1>
+
+            <dl>
+                <dt class="contact-list">Email</dt>
+                <dd class="data-list">
+                    <a href="mailto:maulidare9@gmail.com">maulidare9@gmail.com</a>
+                </dd>
+                <dt class="contact-list">Linkedin</dt>
+                <dd class="data-list">
+                    <a
+                        href="https://www.linkedin.com/in/vaibhav-jadhav-444692374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">My
+                        Linkedin Account</a>
+                </dd>
+                <dt class="contact-list">Instagram</dt>
+                <dd class="data-list">
+                    maulii.07_
+                </dd>
+            </dl>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
